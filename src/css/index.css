@@ -1,0 +1,48 @@
+.search-form{
+width: 100%;
+display: flex;
+justify-content: center;
+background-color: rgb(168, 168, 211);
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.gallery{
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+margin-left: 20px;
+margin-right: 20px;
+} 
+.photo-card{
+ width: calc((100% - 40px) / 4);
+ box-shadow: 2px 3px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.info{
+display: flex;
+justify-content: space-around;
+}
+
+.info-item{
+display: flex;
+flex-direction: column-reverse;
+text-align: center;
+}
+.btn-load{
+display: flex;
+justify-content: center;
+}
+
+.load-more{   
+width: 300px;
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 10px;
+text-align: center;
+background-color: azure;
+}
+.load-more:hover{
+background-color: rgb(171, 153, 233);
+}
+
